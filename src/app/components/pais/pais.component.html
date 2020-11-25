@@ -1,0 +1,22 @@
+<h1>Datos de todos los paises</h1>
+<table class="table table-hover table-bordered" >
+
+    <thead>
+        <tr>
+        <th scope="col">Codigo</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Poblacion</th>
+        <th scope="col">Continente</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let item of pais" >
+            <td>{{item.alpha3Code}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.population}}</td>
+            <td>{{item.region}}</td>
+        </tr>
+    </tbody>
+
+</table>

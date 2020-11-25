@@ -1,0 +1,17 @@
+.datos{
+    float: left;
+    width: 25%;
+}
+
+.myFooter{
+    bottom: 0;
+    border-top: solid 12px black;
+    background-color: violet;
+    width: 100%;
+}
+
+.myContenedor{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}

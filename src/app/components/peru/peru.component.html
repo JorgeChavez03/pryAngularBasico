@@ -1,0 +1,15 @@
+<h1>Datos de Perú</h1>
+
+<br>
+<h4>Capital del Perú - Poblacion total</h4>
+<p *ngFor="let item of peru">{{item.capital}} - {{item.population}}</p>
+<br>
+<h4>Continente-SubRegion</h4>
+<p *ngFor="let item of peru">{{item.region}}-{{item.subregion}}</p>
+<br>
+<h4>Zona horaria del Perú</h4>
+<p *ngFor="let item of peru">{{item.timezones}}</p>
+<br>
+<h4>Paises que limitan con Perú</h4>
+<p *ngFor="let item of peru">{{item.borders}}</p>
+<br>

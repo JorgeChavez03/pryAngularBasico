@@ -1,0 +1,22 @@
+
+.footerLeft{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.imgF{
+    float: left;
+    margin-right: 15px;
+}
+
+.pF{
+    float: left;
+    width: 70%;
+}
+
+.footerRight{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
